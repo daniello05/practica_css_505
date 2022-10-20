@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+div {
+  width: 300px;
+  height: auto;
+  background: rgb(146, 161, 245);
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px black;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(134, 199, 252);
+  padding: 10px;
+}
+
+button {
+  align-items: center;
+  background: rgb(82, 97, 230);
+  color: white;
+  padding: 15px;
+  margin: 20px;
+}
+
+button:hover {
+  border: 2px solid white;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #3ef3ea;
+
+}

@@ -1,0 +1,94 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(0, 0, 0);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+}
+header{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+
+
+}
+section{
+    width: 400px;
+    height: 550px;
+    background: #e428b5;
+    margin: auto;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    top: -60;
+    box-shadow: 5px 5px 20px #8cd1ff;
+    
+}
+input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 2px solid #fd0505;
+    font-size: 10px;
+    border-radius: 5px;
+    margin-top :30px; ;
+}
+input:focus{
+    box-shadow: 0 0 30px #4eb7fd;
+}
+input::placeholder{
+padding: left;
+font-size: 15px;
+opacity: 0.5;
+}
+button{
+    width: 100px;
+    height: 40px;
+    margin: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight:bold ;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px #5448fc;
+}
+.claro{
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+.mover{
+    margin-top: 30px;
+}
+.btn-loguin{
+    background-color: #ffd78c;
+}
+.btn-face{
+    background-color: #4896fc;
+}
+.btn-git{
+    background-color: rgb(47, 232, 245);
+}
